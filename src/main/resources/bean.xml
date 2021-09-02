@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context = "http://www.springframework.org/schema/context"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+      http://www.springframework.org/schema/context
+      http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+ <!--<bean id="gadgets" class="com.example.demo.gadgets">
+        <property name="id" value="1007"></property>
+        <property name="name" value="hp"></property>
+        <property name="type" value="laptop"></property>
+        <property name="cost" value="10000"></property>
+    </bean>
+   <bean id="gadgets1" class="com.example.demo.gadgets" init-method="init" destroy-method="destroy">
+        <constructor-arg   value="10067b" ></constructor-arg>
+        <constructor-arg   value="laptop" ></constructor-arg>
+</bean>
+    <bean id="gadgets2" class="com.example.demo.gadgets">
+        <constructor-arg   value="10068b" ></constructor-arg>
+    </bean>-->
+   <!-- <context:component-scan base-package="com.example.demo"/>
+        <bean id="memory1" class="com.example.demo.memory">
+
+        </bean>-->
+   <!-- <bean id="memory" class="com.example.demo.memory" init-method="init" destroy-method="destroy">
+        <constructor-arg value="4gb"/>
+        <constructor-arg value="1Tb" />
+        <property name="lap" ref="laptop1"/>
+    </bean>
+   <bean id = "gadget1" class = "com.example.demo.gadgets">
+        <property name="id" value="10078b"/>
+        <property name="type" value="laptop"/>
+    </bean>
+
+    <bean id ="laptop1" class = "com.example.demo.laptop" parent="gadget1" >
+        <property name="apps">
+        <list>
+            <value>zoom</value>
+            <value>webex</value>
+            <value>outlook</value>
+        </list>
+        </property>
+       <property name="model" value="m1"/>
+        <property name="name" value="dell"/>
+        <property name="cost" value="30000"/>
+        <property name="address">
+            <map>
+                <entry key="MAC"  value="1567:7890:890:3452"></entry>
+                <entry key="IP" value="172.18.13.10"></entry>
+            </map>
+        </property>
+    </bean>
+    <bean class="com.example.demo.print"></bean>-->
+</beans>
